@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="木漏れ日のように、ほっと一息つける場所。神戸のカフェ Cafe Lumiere。">
+  <title>Cafe Lumiere | 神戸のカフェ</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ヘッダー -->
+  <header id="header">
+    <div class="header-inner">
+      <p class="logo"><a href="#top">Cafe Lumiere</a></p>
+      <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <nav id="gnav" aria-label="サイトナビゲーション">
+      <ul>
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#menu">メニュー</a></li>
+        <li><a href="#gallery">店内写真</a></li>
+        <li><a href="#assurance">初めての方へ</a></li>
+        <li><a href="#info">店舗情報</a></li>
+        <li><a href="#contact">お問い合わせ</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="nav-overlay"></div>
+
+  <!-- ヒーロー -->
+  <section id="top" class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-logo-wrap">
+        <img
+          src="images/logo.png"
+          alt="Cafe Lumiere 木漏れ日のように、ほっと一息つける場所。"
+          class="hero-logo"
+        >
+      </h1>
+    </div>
+  </section>
+
+  <!-- コンセプト -->
+  <section id="concept" class="section concept">
+    <div class="section-inner">
+      <h2 class="section-title">Concept</h2>
+      <div class="concept-content">
+        <picture>
+          <source media="(min-width: 640px)" srcset="images/concept-pc.jpg">
+          <img
+            src="images/concept-sp.jpg"
+            alt="カフェの雰囲気"
+            class="concept-img"
+            width="400"
+            height="300"
+          >
+        </picture>
+        <p class="concept-text">
+          光が差し込む店内で、丁寧に淹れた一杯を。<br>
+          日常の喧騒を忘れ、ほっと心ほどける時間をお届けします。
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 人気メニュー -->
+  <section id="menu" class="section menu">
+    <div class="section-inner">
+      <h2 class="section-title">Menu</h2>
+      <p class="section-sub">人気メニュー</p>
+      <div class="menu-cards">
+
+        <!-- メニューカード 1 -->
+        <div class="menu-card">
+          <img src="images/menu1.jpg" alt="季節限定 桃のパンケーキ" width="400" height="400">
+          <div class="menu-card-body">
+            <p class="menu-card-name">季節限定<br>桃のパンケーキ</p>
+            <p class="menu-card-price">¥1,480</p>
+            <p class="menu-card-desc">桃のさわやかな甘さに、ふわふわのクリームを合わせたパンケーキです。この季節だけの特別な一品を届けます。</p>
+          </div>
+        </div>
+
+        <!-- メニューカード 2 -->
+        <div class="menu-card">
+          <img src="images/menu3.jpg" alt="チーズケーキ" width="400" height="400">
+          <div class="menu-card-body">
+            <p class="menu-card-name">チーズケーキ</p>
+            <p class="menu-card-price">¥620</p>
+            <p class="menu-card-desc">しっとり濃厚な味わいとやさしい甘さが広がります。静かなカフェ時間にぴったりのチーズケーキです。</p>
+          </div>
+        </div>
+
+        <!-- メニューカード 3 -->
+        <div class="menu-card">
+          <img src="images/menu2.jpg" alt="自家焙煎 ブレンドコーヒー" width="400" height="400">
+          <div class="menu-card-body">
+            <p class="menu-card-name">自家焙煎<br>ブレンドコーヒー</p>
+            <p class="menu-card-price">¥550</p>
+            <p class="menu-card-desc">オーナーがこだわりぬいて選んだ豆を、毎朝ていねいに焙煎しています。深みのある香りとやさしい余韻が広がります。</p>
+          </div>
+        </div>
+
+        <!-- メニューカード 4 -->
+        <div class="menu-card">
+          <img src="images/menu4.jpg" alt="カフェラテ" width="400" height="400">
+          <div class="menu-card-body">
+            <p class="menu-card-name">カフェラテ</p>
+            <p class="menu-card-price">¥620</p>
+            <p class="menu-card-desc">ふんわり広がるミルクのやさしさと豊かな香り。静かな時間に味わいたい、やさしい一杯です。</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- 実際のInstagramアカウントURLに差し替えてください -->
+      <a href="#instagram-tbd" target="_blank" rel="noopener noreferrer" class="btn">View More</a>
+    </div>
+  </section>
+
+  <!-- 店内写真 -->
+  <section id="gallery" class="section gallery">
+    <div class="section-inner">
+      <h2 class="section-title">Gallery</h2>
+      <!-- 中身は js/main.js の GALLERY_PHOTOS リストから自動生成されます -->
+      <div class="gallery-grid" id="gallery-grid"></div>
+    </div>
+  </section>
+
+  <!-- 初めての方へ -->
+  <section id="assurance" class="section assurance">
+    <div class="section-inner">
+      <h2 class="section-title">初めての方へ</h2>
+      <div class="assurance-grid">
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2"/>
+              <line x1="16" y1="2" x2="16" y2="6"/>
+              <line x1="8" y1="2" x2="8" y2="6"/>
+              <line x1="3" y1="10" x2="21" y2="10"/>
+            </svg>
+          </div>
+          <p class="assurance-label">ご予約</p>
+          <p class="assurance-text">予約不要。当日ふらっとご来店いただけます。</p>
+        </div>
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <p class="assurance-label">席数・雰囲気</p>
+          <p class="assurance-text">カウンター4席・テーブル12席。おひとり様も歓迎です。</p>
+        </div>
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="1" y="4" width="22" height="16" rx="2"/>
+              <line x1="1" y1="10" x2="23" y2="10"/>
+            </svg>
+          </div>
+          <p class="assurance-label">お支払い</p>
+          <p class="assurance-text">現金・各種クレジットカード・電子マネーに対応しています。</p>
+        </div>
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M5 12.55a11 11 0 0 1 14.08 0"/>
+              <path d="M1.42 9a16 16 0 0 1 21.16 0"/>
+              <path d="M8.53 16.11a6 6 0 0 1 6.95 0"/>
+              <line x1="12" y1="20" x2="12.01" y2="20"/>
+            </svg>
+          </div>
+          <p class="assurance-label">Wi-Fi・電源</p>
+          <p class="assurance-text">Wi-Fi・電源を完備しています。</p>
+        </div>
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M10 16V8h3a2.5 2.5 0 0 1 0 5h-3"/>
+            </svg>
+          </div>
+          <p class="assurance-label">駐車場</p>
+          <p class="assurance-text">専用駐車場はございません。近隣のコインパーキングをご利用ください。</p>
+        </div>
+
+        <div class="assurance-item">
+          <div class="assurance-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/>
+            </svg>
+          </div>
+          <p class="assurance-label">お子様連れ</p>
+          <p class="assurance-text">お子様連れのご来店も歓迎です。</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 店舗情報・アクセス -->
+  <section id="info" class="section info">
+    <div class="section-inner">
+      <h2 class="section-title">店舗情報</h2>
+      <table class="info-table">
+        <tr>
+          <th>営業時間</th>
+          <td>10:00〜18:00</td>
+        </tr>
+        <tr>
+          <th>定休日</th>
+          <td>毎週火曜日</td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td><a href="tel:0781234567">078-123-4567</a></td>
+        </tr>
+        <tr>
+          <th>住所</th>
+          <td>兵庫県神戸市中央区○○１－２－３</td>
+        </tr>
+      </table>
+
+      <p class="info-subtitle">アクセス</p>
+      <div class="map-wrap">
+        <!-- Google Maps の埋め込みコードをここに貼り付けてください -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52699.51563!2d135.1955!3d34.6913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e7671b9b10d5%3A0x5ac21e5656c33f0b!2z56m65ghIjE3LTAuMTMJMzQwNDYtMzY0!5e0!3m2!1sja!2sjp!4v1234567890"
+          width="100%"
+          height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Cafe Lumiere の地図"
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせ -->
+  <section id="contact" class="section contact">
+    <div class="section-inner">
+      <h2 class="section-title">お問い合わせ</h2>
+      <div class="contact-wrap">
+
+        <!-- 電話 -->
+        <a href="tel:0781234567" class="contact-btn tel-btn">
+          お電話でのご予約
+          <span class="tel-number">078-123-4567</span>
+          <span class="tel-note">受付時間 10:00〜18:00（火曜定休）</span>
+        </a>
+
+        <!-- Instagram DM ／ 実際のInstagramアカウントURL（https://ig.me/m/ユーザー名）に差し替えてください -->
+        <a
+          href="#instagram-tbd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-btn ig-btn"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+          </svg>
+          Instagram DM で<br>お問い合わせ
+        </a>
+
+        <!-- Instagram フォロー ／ 実際のInstagramアカウントURLに差し替えてください -->
+        <a
+          href="#instagram-tbd"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="contact-btn follow-btn"
+        >
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+          </svg>
+          @cafe_lumiere を<br>フォローする
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer id="footer">
+    <div class="footer-inner">
+      <p class="footer-logo">Cafe Lumiere</p>
+      <p class="footer-address">
+        兵庫県神戸市中央区○○１－２－３<br>
+        TEL：078-123-4567
+      </p>
+      <p class="footer-tel">営業時間 10:00〜18:00 ／ 毎週火曜定休</p>
+      <p class="copyright">&copy; Cafe Lumiere. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <!-- 画像拡大ポップアップ -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightbox-close" aria-label="閉じる">&times;</button>
+    <img src="" alt="" class="lightbox-img" id="lightbox-img">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

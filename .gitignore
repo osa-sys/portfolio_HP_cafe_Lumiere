@@ -1,0 +1,18 @@
+# 参考資料・第三者データ（公開しない）
+HP例/
+ロゴデータ/
+tp_sh1_pan.zip
+
+# 社内向けドキュメント（サイト表示には使わない）
+進捗ログ.md
+CLAUDE.md
+
+# 圧縮前バックアップ画像（未使用）
+images/*_original_backup.*
+
+# menu.html は現在どこからもリンクされていない未使用ページ（テンプレート用に温存、公開対象外）
+# ※将来 index.html からリンクし、実際の写真を配置して公開する場合はこの3行を削除する
+menu.html
+images/drink*.jpg
+images/food*.jpg
+images/sweets*.jpg
