@@ -215,7 +215,7 @@ a {
 .hero-inner {
   position: absolute;
   top: 42%;
-  left: 52%;
+  left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
   width: 100%;
@@ -230,6 +230,7 @@ a {
   width: min(85%, 360px);
   height: auto;
   margin: 0 auto;
+  transform: translateX(2%);
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
 }
 
