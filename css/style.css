@@ -214,12 +214,9 @@ a {
 
 .hero-inner {
   position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 20px;
+  bottom: 32px;
   z-index: 1;
-  width: 100%;
-  padding: 0 24px;
 }
 
 .hero-logo-wrap {
@@ -227,10 +224,8 @@ a {
 }
 
 .hero-logo {
-  width: min(85%, 360px);
+  width: min(90vw, 450px);
   height: auto;
-  margin: 0 auto;
-  transform: translateX(2%);
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
 }
 
@@ -641,12 +636,12 @@ a {
   }
 
   .hero-logo {
-    width: min(70%, 520px);
+    width: min(38vw, 650px);
   }
 
   .hero-inner {
-    top: 50%;
-    left: 25%;
+    left: 48px;
+    bottom: 56px;
   }
 
   .section-title {
