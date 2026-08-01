@@ -214,8 +214,9 @@ a {
 
 .hero-inner {
   position: absolute;
-  left: 20px;
-  bottom: 32px;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1;
 }
 
@@ -224,7 +225,7 @@ a {
 }
 
 .hero-logo {
-  width: min(90vw, 450px);
+  width: min(94vw, 675px);
   height: auto;
   filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.35));
 }
