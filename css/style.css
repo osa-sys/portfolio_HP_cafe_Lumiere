@@ -237,19 +237,6 @@ a {
   background: url('../images/bg-concept-sp.jpg') center / cover no-repeat;
 }
 
-.concept-content {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-}
-
-.concept-img {
-  width: 100%;
-  border-radius: 4px;
-  object-fit: cover;
-  aspect-ratio: 4 / 3;
-}
-
 .concept-catch {
   font-size: 18px;
   font-weight: 700;
@@ -267,15 +254,6 @@ a {
 @media (min-width: 640px) {
   .hero {
     background-image: url('../images/header-hero-pc.jpg');
-  }
-
-  .concept-content {
-    flex-direction: row;
-    align-items: center;
-  }
-  .concept-img {
-    width: 45%;
-    flex-shrink: 0;
   }
 
   .concept {
